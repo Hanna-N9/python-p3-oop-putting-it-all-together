@@ -7,7 +7,7 @@ class Shoe:
         
     def size(self):
         return self._size
-    
+     
     def set_size(self, size):
         if isinstance(size, int):
             self._size = size
